@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Function deployment package
+function_deploy.zip
+
+# Python
+__pycache__/
+*.pyc
+.python_packages/
+.venv/
+
+# macOS
+.DS_Store
